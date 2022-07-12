@@ -1,0 +1,65 @@
+.clientContainer {
+  margin-bottom: 10px;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+@media (max-width: 800px) {
+  .client {
+    flex-direction: column;
+  }
+}
+
+.clientInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+@media (max-width: 800px) {
+  .clientInfo {
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.infoValueContainer:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.label {
+  color: #000;
+}
+
+.value {
+  color: #999;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.buttons > *:not(:last-child) {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .buttons {
+    flex-direction: row;
+  }
+
+  .buttons > *:not(:last-child) {
+    margin: 0;
+    margin-right: 10px;
+  }
+}

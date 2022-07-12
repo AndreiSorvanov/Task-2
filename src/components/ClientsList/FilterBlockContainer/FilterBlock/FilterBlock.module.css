@@ -1,0 +1,19 @@
+.filterBlock {
+  margin-bottom: 10px;
+}
+
+.filterBlock {
+  margin-bottom: 20px;
+}
+
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filterInput {
+  width: 300px;
+  max-width: 100%;
+  margin-top: 5px;
+}
